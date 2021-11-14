@@ -11,7 +11,7 @@ public class ConnectionServlet extends HttpServlet {
     public void init() {
         String url = "jdbc:mysql://localhost/java_auth";
         String user = "root";
-        String password = "lGenius51l";
+        String password = "";
 
         try {
 //            Class.forName("com.mysql.cj.jdbc.Driver");
